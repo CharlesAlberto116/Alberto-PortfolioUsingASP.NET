@@ -14,7 +14,6 @@ E:\Test\MyPortfolio\MyPortfolio\obj\Debug\net8.0\MyPortfolio.csproj.CoreCompileI
 E:\Test\MyPortfolio\MyPortfolio\obj\Debug\net8.0\MyPortfolio.MvcApplicationPartsAssemblyInfo.cache
 E:\Test\MyPortfolio\MyPortfolio\obj\Debug\net8.0\MyPortfolio.RazorAssemblyInfo.cache
 E:\Test\MyPortfolio\MyPortfolio\obj\Debug\net8.0\MyPortfolio.RazorAssemblyInfo.cs
-E:\Test\MyPortfolio\MyPortfolio\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 E:\Test\MyPortfolio\MyPortfolio\obj\Debug\net8.0\scopedcss\bundle\MyPortfolio.styles.css
 E:\Test\MyPortfolio\MyPortfolio\obj\Debug\net8.0\scopedcss\projectbundle\MyPortfolio.bundle.scp.css
 E:\Test\MyPortfolio\MyPortfolio\obj\Debug\net8.0\staticwebassets.build.json
@@ -31,3 +30,5 @@ E:\Test\MyPortfolio\MyPortfolio\obj\Debug\net8.0\rjimswa.dswa.cache.json
 E:\Test\MyPortfolio\MyPortfolio\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 E:\Test\MyPortfolio\MyPortfolio\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 E:\Test\MyPortfolio\MyPortfolio\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\Test\MyPortfolio\MyPortfolio\obj\Debug\net8.0\MyPortfolio.sourcelink.json
+E:\Test\MyPortfolio\MyPortfolio\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
