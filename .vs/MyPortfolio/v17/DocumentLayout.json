@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\Test\\MyPortfolio\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CB4E0F16-FFAD-40A3-9821-A2529D24409B}|MyPortfolio\\MyPortfolio.csproj|e:\\test\\myportfolio\\myportfolio\\netlify.toml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CB4E0F16-FFAD-40A3-9821-A2529D24409B}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\netlify.toml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB4E0F16-FFAD-40A3-9821-A2529D24409B}|MyPortfolio\\MyPortfolio.csproj|e:\\test\\myportfolio\\myportfolio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CB4E0F16-FFAD-40A3-9821-A2529D24409B}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -74,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 256,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,7 +90,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
+              "Title": "netlify.toml",
+              "DocumentMoniker": "E:\\Test\\MyPortfolio\\MyPortfolio\\netlify.toml",
+              "RelativeDocumentMoniker": "MyPortfolio\\netlify.toml",
+              "ToolTip": "E:\\Test\\MyPortfolio\\MyPortfolio\\netlify.toml",
+              "RelativeToolTip": "MyPortfolio\\netlify.toml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-12T07:41:20.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "education.cshtml",
               "DocumentMoniker": "E:\\Test\\MyPortfolio\\MyPortfolio\\Views\\Home\\education.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio\\Views\\Home\\education.cshtml",
@@ -98,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "E:\\Test\\MyPortfolio\\MyPortfolio\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio\\Views\\Home\\Privacy.cshtml",
@@ -110,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "activeLink.js",
               "DocumentMoniker": "E:\\Test\\MyPortfolio\\MyPortfolio\\wwwroot\\js\\activeLink.js",
               "RelativeDocumentMoniker": "MyPortfolio\\wwwroot\\js\\activeLink.js",
@@ -122,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "site.js",
               "DocumentMoniker": "E:\\Test\\MyPortfolio\\MyPortfolio\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "MyPortfolio\\wwwroot\\js\\site.js",
@@ -134,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Test\\MyPortfolio\\MyPortfolio\\Program.cs",
               "RelativeDocumentMoniker": "MyPortfolio\\Program.cs",
@@ -146,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "launchSettings.json",
               "DocumentMoniker": "E:\\Test\\MyPortfolio\\MyPortfolio\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "MyPortfolio\\Properties\\launchSettings.json",
@@ -158,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "script.js",
               "DocumentMoniker": "E:\\Test\\MyPortfolio\\MyPortfolio\\wwwroot\\js\\script.js",
               "RelativeDocumentMoniker": "MyPortfolio\\wwwroot\\js\\script.js",
@@ -170,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\Test\\MyPortfolio\\MyPortfolio\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MyPortfolio\\Controllers\\HomeController.cs",
@@ -182,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "project.cshtml",
               "DocumentMoniker": "E:\\Test\\MyPortfolio\\MyPortfolio\\Views\\Home\\project.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio\\Views\\Home\\project.cshtml",
@@ -194,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "skill.cshtml",
               "DocumentMoniker": "E:\\Test\\MyPortfolio\\MyPortfolio\\Views\\Home\\skill.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio\\Views\\Home\\skill.cshtml",
@@ -206,20 +223,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "index.cshtml",
               "DocumentMoniker": "E:\\Test\\MyPortfolio\\MyPortfolio\\Views\\Home\\index.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio\\Views\\Home\\index.cshtml",
               "ToolTip": "E:\\Test\\MyPortfolio\\MyPortfolio\\Views\\Home\\index.cshtml",
               "RelativeToolTip": "MyPortfolio\\Views\\Home\\index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-09T03:13:03.347Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "percentages.js",
               "DocumentMoniker": "E:\\Test\\MyPortfolio\\MyPortfolio\\wwwroot\\js\\percentages.js",
               "RelativeDocumentMoniker": "MyPortfolio\\wwwroot\\js\\percentages.js",
@@ -231,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "site.css",
               "DocumentMoniker": "E:\\Test\\MyPortfolio\\MyPortfolio\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "MyPortfolio\\wwwroot\\css\\site.css",
@@ -243,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "typing.js",
               "DocumentMoniker": "E:\\Test\\MyPortfolio\\MyPortfolio\\wwwroot\\js\\typing.js",
               "RelativeDocumentMoniker": "MyPortfolio\\wwwroot\\js\\typing.js",
@@ -255,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "MyPortfolio.csproj",
               "DocumentMoniker": "E:\\Test\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
               "RelativeDocumentMoniker": "MyPortfolio\\MyPortfolio.csproj",
@@ -267,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\Test\\MyPortfolio\\MyPortfolio\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio\\Views\\Shared\\_Layout.cshtml",
