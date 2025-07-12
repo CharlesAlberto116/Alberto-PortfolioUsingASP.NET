@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FPMy+CMPvQk=",
+  "success": true,
+  "projectFilePath": "E:\\Test\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Luzbert\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.302\\microsoft.net.sdk.compilers.toolset.9.0.302.nupkg.sha512"
+  ],
+  "logs": []
+}

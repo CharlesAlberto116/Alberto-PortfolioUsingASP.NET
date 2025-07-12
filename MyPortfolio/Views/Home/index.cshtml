@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Char<span class="highlight">les.</span></h1>
+        <nav class="top-nav">
+            <ul>
+                <li><a href="@Url.Action("index", "Home")">About me</a></li>
+                <li><a href="@Url.Action("Education", "Home")">Education</a></li>
+                <li><a href="@Url.Action("Project", "Home")">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="body-container profile-section">
+        <div class="profile-image-container">
+            <img src="image/Picture.jpg" alt="Profile" class="profile-image" />
+        </div>
+        <div class="about-me-text" id="about-me-text"></div>
+            <p style ="text-align: justify;">
+                @* My name is Charles Bryan L. Alberto, a fresh graduate eager to explore and enhance my knowledge and 
+                skills in the field of technology. I have hands-on experience as both a front-end and back-end developer, which has given me a strong foundation in full-stack development. 
+                As I embark on my professional journey, I am excited to take on new projects that will 
+                challenge me, allow me to grow, and refine my capabilities as a developer. I am passionate about continuous learning and committed to building innovative and impactful solutions. *@
+            </p>
+
+        <!-- New contact icons section -->
+        <div class="contact-sidebar">
+            <div class="contact-icons" style="display:flex; gap:10px;">
+                <!-- Your icons here -->
+                <a href="https://www.facebook.com/GGNotyourtypicalmidlaner/" target="_blank" title="Facebook" style="color:#3b5998; font-size:2em;">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/charles-bryan-l-alberto-0203a22b4/" target="_blank" title="LinkedIn" style="color:#0077b5; font-size:2em;">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a id="phone-link" href="#" onclick="showNumber('09156278355'); return false;" title="Click to copy" style="color:#25D366; font-size:2em;">
+                    <i class="fas fa-phone"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+ 
+
+
+    <div class="about-me-container">
+        <div class="about-me-text-block">
+            <p class="name-highlight">About me</p>
+            <p class="name-highlight">Hello, I'm Charles Bryan L. Alberto.</p>
+            <p class="about-details">
+                I recently earned a Bachelor of Science in Information Technology from Cavite State University – Imus Campus. I am 22 years old and currently reside in Tropical Village, General Trias, Cavite.
+            </p>
+            <p class="about-details">
+                I am passionate about web development, programming, and building innovative solutions. I love exploring new technologies and continuously improving my skills.
+            </p>
+        </div>
+        <img src="image/codes.jpg" class="about-me-image" alt="Your Image" />
+    </div>
+
+    <br>
+    <br>
+    <h2 class="skills-heading">My Skills</h2>
+
+    <div class="skills-container">
+        <div class="skill">
+            <div class="skill-name">CSS</div>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width:0%;"></div>
+            </div>
+            <div class="skill-percent">0%</div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">HTML</div>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width:85%;"></div>
+            </div>
+            <div class="skill-percent">85%</div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width:75%;"></div>
+            </div>
+            <div class="skill-percent">75%</div>
+        </div>
+    </div>
+
+
+
+    <div class="items-container">
+        <!-- Project -->
+        <div class="square-box">
+            <div class="img-container">
+                <a href="@Url.Action("Project", "Home")"></a>
+                <div style ="align-items: center;" class="label">Project</div>
+                <img src="image/Project.jpg" class="inside-image" />
+                <div class="overlay-label">Project</div>
+            </div>
+        </div>
+        <!-- Education -->
+        <div class="square-box">
+            <div class="img-container">
+                <div style="align-items: center;" class="label">Education</div>
+                <img src="image/CaviteState.jpg" class="inside-image" />
+                <div class="overlay-label">Education</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/typing.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/activeLink.js"></script>
+    <script src="js/percentage.js"></script>
+
+    <script>
+        function showNumber(number) {
+            // Replace icon with the actual number
+            const link = document.getElementById('phone-link');
+            link.innerHTML = number;
+            // Copy to clipboard
+            navigator.clipboard.writeText(number).then(function() {
+                alert('Phone number copied: ' + number);
+            }, function(err) {
+                alert('Failed to copy: ', err);
+            });
+        }
+    </script>
+</body>
+</html>

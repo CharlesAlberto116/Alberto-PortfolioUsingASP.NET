@@ -1,0 +1,66 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/site.css" /> <!-- assuming your stylesheet is named site.css -->
+    <title>Projects</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Char<span class="highlight">les.</span></h1>
+        <nav class="top-nav">
+            <ul>
+                <li><a href="@Url.Action("index", "Home")">About me</a></li>
+                <li><a href="@Url.Action("Education", "Home")">Education</a></li>
+                <li><a href="@Url.Action("Project", "Home")">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="section" id="projects">
+        <h2 style="text-align:center; margin-bottom:40px;">My Projects</h2>
+        <div class="items-container">
+            <!-- Example project item -->
+            <div class="item">
+                <div class="label">Project 1</div>
+                <div class="square-box">
+                    <div class="img-container">
+                        <img src="image/project1.jpg" alt="Project 1" class="inside-image" />
+                        <div class="overlay-label">View Details</div>
+                    </div>
+                </div>
+                <div style="margin-top:10px; max-width:300px; text-align:center;">
+                    <h3>Project Title 1</h3>
+                    <p>
+                        Brief description of Project 1. This can include technologies used, purpose, or any notable features.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Example project item -->
+            <div class="item">
+                <div class="label">Project 2</div>
+                <div class="square-box">
+                    <div class="img-container">
+                        <img src="image/project2.jpg" alt="Project 2" class="inside-image" />
+                        <div class="overlay-label">View Details</div>
+                    </div>
+                </div>
+                <div style="margin-top:10px; max-width:300px; text-align:center;">
+                    <h3>Project Title 2</h3>
+                    <p>
+                        Brief description of Project 2. Mention key features, challenges, or technologies.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Add more project items as needed -->
+        </div>
+    </div>
+
+    <!-- Optional: include scripts if necessary -->
+    <script src="js/activeLink.js"></script>
+</body>
+</html>

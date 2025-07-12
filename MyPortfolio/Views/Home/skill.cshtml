@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/site.css" /> 
+    <title>Projects</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Char<span class="highlight">les.</span></h1>
+        <nav class="top-nav">
+            <ul>
+                <li><a href="@Url.Action("index", "Home")">About me</a></li>
+                <li><a href="@Url.Action("Education", "Home")">Education</a></li>
+                <li><a href="@Url.Action("Project", "Home")">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 style="text-align:center;">My Skills</h2>
+
+    <div class="skills-container">
+        <div class="skill">
+            <div class="skill-name">CSS</div>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width:0%;"></div>
+            </div>
+            <div class="skill-percent">0%</div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">HTML</div>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width:85%;"></div>
+            </div>
+            <div class="skill-percent">85%</div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width:75%;"></div>
+            </div>
+            <div class="skill-percent">75%</div>
+        </div>
+    </div>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          document.querySelectorAll('.skill-fill').forEach(fill => {
+            const width = fill.style.width;
+            fill.style.width = '0%';
+            setTimeout(() => {
+              fill.style.width = width;
+            }, 100);
+          });
+        });
+    </script>
+</body>
+</html>
