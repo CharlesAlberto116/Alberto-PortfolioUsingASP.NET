@@ -29,12 +29,12 @@ public class HomeController : Controller
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 
-    public IActionResult education()
+    public IActionResult Education()
     {
         return View();
     }
 
-    public IActionResult project()
+    public IActionResult Project()
     {
         return View();
     }
